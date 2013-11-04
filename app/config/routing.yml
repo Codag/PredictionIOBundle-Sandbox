@@ -1,0 +1,5 @@
+prediction_io_prediction_io:
+    resource: "@PredictionIOPredictionIOBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
