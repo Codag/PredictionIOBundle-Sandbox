@@ -21,7 +21,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
 
 
-        "codag/predictionio-bundle": "dev-master"
+        "codag/predictionio-bundle": "dev-develop"
     },
     "scripts": {
         "post-install-cmd": [
