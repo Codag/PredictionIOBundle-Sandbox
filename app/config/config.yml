@@ -64,5 +64,5 @@ swiftmailer:
     password:  %mailer_password%
     spool:     { type: memory }
 
-prediction_io_prediction_io:
-    app_key: 123
+codag_prediction_io:
+  app_key: 123
