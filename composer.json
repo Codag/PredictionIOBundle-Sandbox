@@ -20,7 +20,6 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
 
-
         "codag/predictionio-bundle": "dev-develop"
     },
     "scripts": {
@@ -42,7 +41,7 @@
     "config": {
         "bin-dir": "bin"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
