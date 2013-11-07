@@ -13,6 +13,18 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 class DemoController extends Controller
 {
     /**
+     * @Route("/predictionio/example")
+     * @Template()
+     */
+    public function exampleAction()
+    {
+        $client = $this->get('predictionio')->getClient();
+        var_dump($client);
+
+        return array();
+    }
+
+    /**
      * @Route("/", name="_demo")
      * @Template()
      */
