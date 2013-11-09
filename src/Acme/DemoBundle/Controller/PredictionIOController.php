@@ -22,9 +22,8 @@ class PredictionIOController extends Controller {
      */
     public function indexAction()
     {
-        $client = $this->get('predictionio')->getClient();
-        var_dump($client);
+        $client = $this->get('codag.predictionio')->getClient();
 
-        return array();
+        return array('client' => $client);
     }
 } 

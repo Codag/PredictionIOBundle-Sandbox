@@ -19,7 +19,6 @@ class DemoController extends Controller
     public function exampleAction()
     {
         $client = $this->get('predictionio')->getClient();
-        var_dump($client);
 
         return array();
     }

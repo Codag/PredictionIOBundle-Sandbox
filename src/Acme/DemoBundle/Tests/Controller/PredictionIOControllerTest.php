@@ -4,14 +4,20 @@ namespace Acme\DemoBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class DemoControllerTest extends WebTestCase
+class PredictionIOControllerTest extends WebTestCase
 {
     public function testIndex()
     {
         $client = static::createClient();
 
+        //$client = static::createClient(array(), array('HTTP_HOST' => 'predictionio.local'));
+        //$client->followRedirects(true);
+
         $crawler = $client->request('GET', '/predictionio');
 
-        $this->assertTrue($crawler->filter('html:contains("Codag\PredictionIOClient")')->count() > 0);
+        $this->assertGreaterThan(
+            0,
+            $crawler->filter('html:contains("PredictionIO\PredictionIOClient")')->count()
+        );
     }
 }
