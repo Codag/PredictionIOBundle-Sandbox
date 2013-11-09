@@ -19,4 +19,4 @@ composer.lock
 bin/phpunit
 bin/behat
 
-src/PredictionIO
+src/Codag

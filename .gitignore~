@@ -18,3 +18,5 @@ app/config/parameters.yml
 composer.lock
 bin/phpunit
 bin/behat
+
+src/Codag

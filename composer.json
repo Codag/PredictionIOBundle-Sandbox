@@ -1,8 +1,8 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "codag/predictionio-bundle-sandbox",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "The \"Symfony Standard Edition\" distribution with PredictionIOBundle integrated",
     "autoload": {
         "psr-0": { "": "src/" }
     },
@@ -20,8 +20,7 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
 
-
-        "predictionio/predictionio": "dev-master"
+        "codag/predictionio-bundle": "dev-develop"
     },
     "scripts": {
         "post-install-cmd": [
