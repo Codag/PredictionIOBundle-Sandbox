@@ -65,5 +65,5 @@ swiftmailer:
     spool:     { type: memory }
 
 codag_prediction_io:
-  app_key: 123
-  api_url: 345
+  app_key: Your App Key
+  api_url: Your Api Url
