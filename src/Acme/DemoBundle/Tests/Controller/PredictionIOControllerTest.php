@@ -11,11 +11,7 @@ class PredictionIOControllerTest extends WebTestCase
         $client = static::createClient();
 
         //$client = static::createClient(array(), array('HTTP_HOST' => 'predictionio.local'));
-<<<<<<< HEAD
-        //$client->followRedirects(true);
-=======
         $client->followRedirects(true);
->>>>>>> release/1.1.0
 
         $crawler = $client->request('GET', '/predictionio');
 
